@@ -1,0 +1,406 @@
+###############################################################################
+#
+# IAR ELF Linker V7.30.1.7746/W32 for ARM                 27/Apr/2015  12:44:39
+# Copyright 2007-2014 IAR Systems AB.
+#
+#    Output file  =  
+#        E:\_WilliamTan\FW Dev\_Modules\I2C_Nucleo\STM32F411RE -
+#        I2C\Projects\EWARM\STM32F411RE - I2C Configuration\Exe\STM32F411RE -
+#        I2C Configuration.out
+#    Map file     =  
+#        E:\_WilliamTan\FW Dev\_Modules\I2C_Nucleo\STM32F411RE -
+#        I2C\Projects\EWARM\STM32F411RE - I2C Configuration/List\STM32F411RE -
+#        I2C Configuration.map
+#    Command line =  
+#        "E:\_WilliamTan\FW Dev\_Modules\I2C_Nucleo\STM32F411RE -
+#        I2C\Projects\EWARM\STM32F411RE - I2C Configuration\Obj\M24M01.o"
+#        "E:\_WilliamTan\FW Dev\_Modules\I2C_Nucleo\STM32F411RE -
+#        I2C\Projects\EWARM\STM32F411RE - I2C Configuration\Obj\main.o"
+#        "E:\_WilliamTan\FW Dev\_Modules\I2C_Nucleo\STM32F411RE -
+#        I2C\Projects\EWARM\STM32F411RE - I2C
+#        Configuration\Obj\startup_stm32f411xe.o" "E:\_WilliamTan\FW
+#        Dev\_Modules\I2C_Nucleo\STM32F411RE - I2C\Projects\EWARM\STM32F411RE -
+#        I2C Configuration\Obj\stm32f4xx_hal.o" "E:\_WilliamTan\FW
+#        Dev\_Modules\I2C_Nucleo\STM32F411RE - I2C\Projects\EWARM\STM32F411RE -
+#        I2C Configuration\Obj\stm32f4xx_hal_cortex.o" "E:\_WilliamTan\FW
+#        Dev\_Modules\I2C_Nucleo\STM32F411RE - I2C\Projects\EWARM\STM32F411RE -
+#        I2C Configuration\Obj\stm32f4xx_hal_dma.o" "E:\_WilliamTan\FW
+#        Dev\_Modules\I2C_Nucleo\STM32F411RE - I2C\Projects\EWARM\STM32F411RE -
+#        I2C Configuration\Obj\stm32f4xx_hal_dma_ex.o" "E:\_WilliamTan\FW
+#        Dev\_Modules\I2C_Nucleo\STM32F411RE - I2C\Projects\EWARM\STM32F411RE -
+#        I2C Configuration\Obj\stm32f4xx_hal_flash.o" "E:\_WilliamTan\FW
+#        Dev\_Modules\I2C_Nucleo\STM32F411RE - I2C\Projects\EWARM\STM32F411RE -
+#        I2C Configuration\Obj\stm32f4xx_hal_flash_ex.o" "E:\_WilliamTan\FW
+#        Dev\_Modules\I2C_Nucleo\STM32F411RE - I2C\Projects\EWARM\STM32F411RE -
+#        I2C Configuration\Obj\stm32f4xx_hal_flash_ramfunc.o"
+#        "E:\_WilliamTan\FW Dev\_Modules\I2C_Nucleo\STM32F411RE -
+#        I2C\Projects\EWARM\STM32F411RE - I2C
+#        Configuration\Obj\stm32f4xx_hal_gpio.o" "E:\_WilliamTan\FW
+#        Dev\_Modules\I2C_Nucleo\STM32F411RE - I2C\Projects\EWARM\STM32F411RE -
+#        I2C Configuration\Obj\stm32f4xx_hal_i2c.o" "E:\_WilliamTan\FW
+#        Dev\_Modules\I2C_Nucleo\STM32F411RE - I2C\Projects\EWARM\STM32F411RE -
+#        I2C Configuration\Obj\stm32f4xx_hal_i2c_ex.o" "E:\_WilliamTan\FW
+#        Dev\_Modules\I2C_Nucleo\STM32F411RE - I2C\Projects\EWARM\STM32F411RE -
+#        I2C Configuration\Obj\stm32f4xx_hal_msp.o" "E:\_WilliamTan\FW
+#        Dev\_Modules\I2C_Nucleo\STM32F411RE - I2C\Projects\EWARM\STM32F411RE -
+#        I2C Configuration\Obj\stm32f4xx_hal_pwr.o" "E:\_WilliamTan\FW
+#        Dev\_Modules\I2C_Nucleo\STM32F411RE - I2C\Projects\EWARM\STM32F411RE -
+#        I2C Configuration\Obj\stm32f4xx_hal_pwr_ex.o" "E:\_WilliamTan\FW
+#        Dev\_Modules\I2C_Nucleo\STM32F411RE - I2C\Projects\EWARM\STM32F411RE -
+#        I2C Configuration\Obj\stm32f4xx_hal_rcc.o" "E:\_WilliamTan\FW
+#        Dev\_Modules\I2C_Nucleo\STM32F411RE - I2C\Projects\EWARM\STM32F411RE -
+#        I2C Configuration\Obj\stm32f4xx_hal_rcc_ex.o" "E:\_WilliamTan\FW
+#        Dev\_Modules\I2C_Nucleo\STM32F411RE - I2C\Projects\EWARM\STM32F411RE -
+#        I2C Configuration\Obj\stm32f4xx_hal_rtc.o" "E:\_WilliamTan\FW
+#        Dev\_Modules\I2C_Nucleo\STM32F411RE - I2C\Projects\EWARM\STM32F411RE -
+#        I2C Configuration\Obj\stm32f4xx_hal_rtc_ex.o" "E:\_WilliamTan\FW
+#        Dev\_Modules\I2C_Nucleo\STM32F411RE - I2C\Projects\EWARM\STM32F411RE -
+#        I2C Configuration\Obj\stm32f4xx_hal_uart.o" "E:\_WilliamTan\FW
+#        Dev\_Modules\I2C_Nucleo\STM32F411RE - I2C\Projects\EWARM\STM32F411RE -
+#        I2C Configuration\Obj\stm32f4xx_it.o" "E:\_WilliamTan\FW
+#        Dev\_Modules\I2C_Nucleo\STM32F411RE - I2C\Projects\EWARM\STM32F411RE -
+#        I2C Configuration\Obj\system_stm32f4xx.o" --redirect
+#        _Printf=_PrintfFull --redirect _Scanf=_ScanfFull -o "E:\_WilliamTan\FW
+#        Dev\_Modules\I2C_Nucleo\STM32F411RE - I2C\Projects\EWARM\STM32F411RE -
+#        I2C Configuration\Exe\STM32F411RE - I2C Configuration.out" --map
+#        "E:\_WilliamTan\FW Dev\_Modules\I2C_Nucleo\STM32F411RE -
+#        I2C\Projects\EWARM\STM32F411RE - I2C Configuration/List\STM32F411RE -
+#        I2C Configuration.map" --config "C:\Program Files (x86)\IAR
+#        Systems\Embedded Workbench 7.0_2\arm\config\linker\ST\stm32f411xE.icf"
+#        --semihosting --entry __iar_program_start --vfe
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at 0x08000000 { ro section .intvec };
+"P1":  place in [from 0x08000000 to 0x0807ffff] { ro };
+"P2":  place in [from 0x20000000 to 0x2001ffff] { rw, block CSTACK, block HEAP };
+
+  Section            Kind        Address    Size  Object
+  -------            ----        -------    ----  ------
+"A1":                                      0x198
+  .intvec            ro code  0x08000000   0x198  startup_stm32f411xe.o [1]
+                            - 0x08000198   0x198
+
+"P1":                                     0x1e18
+  .text              ro code  0x08000198   0x4d4  stm32f4xx_hal_rcc.o [1]
+  .text              ro code  0x0800066c    0x6c  stm32f4xx_hal.o [1]
+  .text              ro code  0x080006d8    0xf2  stm32f4xx_hal_cortex.o [1]
+  .text              ro code  0x080007ca    0x2e  copy_init3.o [5]
+  .text              ro code  0x080007f8    0xd4  stm32f4xx_hal_msp.o [1]
+  .text              ro code  0x080008cc   0x1d4  stm32f4xx_hal_gpio.o [1]
+  .text              ro code  0x08000aa0   0x4a0  stm32f4xx_hal_rtc.o [1]
+  .text              ro code  0x08000f40    0xfe  stm32f4xx_hal_rtc_ex.o [1]
+  .text              ro code  0x0800103e    0x22  zero_init3.o [5]
+  .text              ro code  0x08001060   0x460  M24M01.o [1]
+  .text              ro code  0x080014c0   0x3ac  stm32f4xx_hal_i2c.o [1]
+  .text              ro code  0x0800186c   0x26c  main.o [1]
+  .text              ro code  0x08001ad8   0x154  stm32f4xx_hal_uart.o [1]
+  .text              ro code  0x08001c2c   0x11c  stm32f4xx_hal_rcc_ex.o [1]
+  .text              ro code  0x08001d48    0x50  system_stm32f4xx.o [1]
+  .text              ro code  0x08001d98    0x38  stm32f4xx_it.o [1]
+  .text              ro code  0x08001dd0    0x28  data_init.o [5]
+  .text              ro code  0x08001df8    0x22  fpinit_M.o [4]
+  .iar.init_table    const    0x08001e1c    0x24  - Linker created -
+  .text              ro code  0x08001e40    0x1a  cmain.o [5]
+  .text              ro code  0x08001e5a     0x4  low_level_init.o [3]
+  .text              ro code  0x08001e5e     0x4  exit.o [3]
+  .text              ro code  0x08001e64     0xa  cexit.o [5]
+  .text              ro code  0x08001e70    0x14  exit.o [6]
+  .text              ro code  0x08001e84    0x10  startup_stm32f411xe.o [1]
+  .text              ro code  0x08001e94     0xc  cstartup_M.o [5]
+  .text              ro code  0x08001ea0     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x08001ea4     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x08001ea8     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x08001eac     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x08001eb0     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x08001eb4     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x08001eb8     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x08001ebc     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x08001ec0     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x08001ec4     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x08001ec8     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x08001ecc     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x08001ed0     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x08001ed4     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x08001ed8     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x08001edc     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x08001ee0     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x08001ee4     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x08001ee8     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x08001eec     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x08001ef0     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x08001ef4     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x08001ef8     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x08001efc     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x08001f00     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x08001f04     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x08001f08     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x08001f0c     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x08001f10     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x08001f14     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x08001f18     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x08001f1c     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x08001f20     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x08001f24     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x08001f28     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x08001f2c     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x08001f30     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x08001f34     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x08001f38     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x08001f3c     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x08001f40     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x08001f44     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x08001f48     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x08001f4c     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x08001f50     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x08001f54     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x08001f58     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x08001f5c     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x08001f60     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x08001f64     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x08001f68     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x08001f6c     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x08001f70     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x08001f74     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x08001f78     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x08001f7c     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x08001f80     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x08001f84     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x08001f88     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x08001f8c     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x08001f90     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x08001f94     0x4  startup_stm32f411xe.o [1]
+  .text              ro code  0x08001f98     0x4  startup_stm32f411xe.o [1]
+  .rodata            const    0x08001f9c     0x0  zero_init3.o [5]
+  .rodata            const    0x08001f9c     0x0  copy_init3.o [5]
+  Initializer bytes  ro data  0x08001f9c    0x14  <for P2 s0>
+                            - 0x08001fb0  0x1e18
+
+"P2":                                     0x40e0
+  P2 s0                       0x20000000    0x14  <Init block>
+    .data            inited   0x20000000    0x14  system_stm32f4xx.o [1]
+  .bss               zero     0x20000014    0xa4  main.o [1]
+  .bss               zero     0x200000b8    0x20  main.o [1]
+  .bss               zero     0x200000d8     0x4  stm32f4xx_hal.o [1]
+  CSTACK                      0x200000e0  0x4000  <Block>
+    CSTACK           uninit   0x200000e0  0x4000  <Block tail>
+                            - 0x200040e0  0x40e0
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0xc8:
+          0x20000014  0xc8
+
+Copy (__iar_copy_init3)
+    1 source range, total size 0x14:
+          0x08001f9c  0x14
+    1 destination range, total size 0x14:
+          0x20000000  0x14
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                  ro code  ro data  rw data
+    ------                  -------  -------  -------
+E:\_WilliamTan\FW Dev\_Modules\I2C_Nucleo\STM32F411RE - I2C\Projects\EWARM\STM32F411RE - I2C Configuration\Obj: [1]
+    M24M01.o                  1 120
+    main.o                      620               196
+    startup_stm32f411xe.o       676
+    stm32f4xx_hal.o             108                 4
+    stm32f4xx_hal_cortex.o      242
+    stm32f4xx_hal_gpio.o        468
+    stm32f4xx_hal_i2c.o         940
+    stm32f4xx_hal_msp.o         212
+    stm32f4xx_hal_rcc.o       1 236
+    stm32f4xx_hal_rcc_ex.o      284
+    stm32f4xx_hal_rtc.o       1 184
+    stm32f4xx_hal_rtc_ex.o      254
+    stm32f4xx_hal_uart.o        340
+    stm32f4xx_it.o               56
+    system_stm32f4xx.o           80       20       20
+    -------------------------------------------------
+    Total:                    7 820       20      220
+
+command line: [2]
+    -------------------------------------------------
+    Total:
+
+dl7M_tln.a: [3]
+    exit.o                        4
+    low_level_init.o              4
+    -------------------------------------------------
+    Total:                        8
+
+m7M_tlv.a: [4]
+    fpinit_M.o                   34
+    -------------------------------------------------
+    Total:                       34
+
+rt7M_tl.a: [5]
+    cexit.o                      10
+    cmain.o                      26
+    copy_init3.o                 46
+    cstartup_M.o                 12
+    data_init.o                  40
+    zero_init3.o                 34
+    -------------------------------------------------
+    Total:                      168
+
+shb_l.a: [6]
+    exit.o                       20
+    -------------------------------------------------
+    Total:                       20
+
+    Gaps                          4        2
+    Linker created                        36   16 384
+-----------------------------------------------------
+    Grand Total:              8 054       58   16 604
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address   Size  Type      Object
+-----                      -------   ----  ----      ------
+?main                   0x08001e41         Code  Gb  cmain.o [5]
+AHBPrescTable           0x20000000   0x10  Data  Gb  system_stm32f4xx.o [1]
+APBAHBPrescTable        0x0800065c   0x10  Data  Gb  stm32f4xx_hal_rcc.o [1]
+CSTACK$$Base            0x200000e0          --   Gb  - Linker created -
+CSTACK$$Limit           0x200040e0          --   Gb  - Linker created -
+EEPROM_MultiByte_Selective_Read
+                        0x080010a3  0x216  Code  Gb  M24M01.o [1]
+EEPROM_MultiByte_Write  0x08001061   0x42  Code  Gb  M24M01.o [1]
+HAL_GPIO_Init           0x080008cd  0x196  Code  Gb  stm32f4xx_hal_gpio.o [1]
+HAL_GPIO_WritePin       0x08000a63    0xa  Code  Gb  stm32f4xx_hal_gpio.o [1]
+HAL_GetTick             0x080006cb    0x6  Code  Wk  stm32f4xx_hal.o [1]
+HAL_I2C_Init            0x080014c1   0xba  Code  Gb  stm32f4xx_hal_i2c.o [1]
+HAL_I2C_Master_Transmit
+                        0x0800158d   0xa2  Code  Gb  stm32f4xx_hal_i2c.o [1]
+HAL_I2C_MspInit         0x08000811   0x34  Code  Gb  stm32f4xx_hal_msp.o [1]
+HAL_IncTick             0x080006c1    0xa  Code  Wk  stm32f4xx_hal.o [1]
+HAL_Init                0x0800066d   0x30  Code  Gb  stm32f4xx_hal.o [1]
+HAL_InitTick            0x0800069d   0x24  Code  Wk  stm32f4xx_hal.o [1]
+HAL_MspInit             0x080007f9   0x18  Code  Gb  stm32f4xx_hal_msp.o [1]
+HAL_NVIC_ClearPendingIRQ
+                        0x08000797    0xc  Code  Gb  stm32f4xx_hal_cortex.o [1]
+HAL_NVIC_EnableIRQ      0x0800075b    0xc  Code  Gb  stm32f4xx_hal_cortex.o [1]
+HAL_NVIC_SetPriority    0x08000717   0x44  Code  Gb  stm32f4xx_hal_cortex.o [1]
+HAL_NVIC_SetPriorityGrouping
+                        0x080006fd   0x1a  Code  Gb  stm32f4xx_hal_cortex.o [1]
+HAL_RCCEx_PeriphCLKConfig
+                        0x08001c2d  0x102  Code  Gb  stm32f4xx_hal_rcc_ex.o [1]
+HAL_RCC_ClockConfig     0x0800041f  0x148  Code  Gb  stm32f4xx_hal_rcc.o [1]
+HAL_RCC_GetHCLKFreq     0x080005e3   0x1e  Code  Gb  stm32f4xx_hal_rcc.o [1]
+HAL_RCC_GetPCLK1Freq    0x08000601   0x10  Code  Gb  stm32f4xx_hal_rcc.o [1]
+HAL_RCC_GetPCLK2Freq    0x08000611    0xe  Code  Gb  stm32f4xx_hal_rcc.o [1]
+HAL_RCC_GetSysClockFreq
+                        0x08000599   0x4a  Code  Gb  stm32f4xx_hal_rcc.o [1]
+HAL_RCC_OscConfig       0x08000199  0x274  Code  Gb  stm32f4xx_hal_rcc.o [1]
+HAL_RTCEx_AlarmBEventCallback
+                        0x0800103d    0x2  Code  Wk  stm32f4xx_hal_rtc_ex.o [1]
+HAL_RTCEx_SetWakeUpTimer_IT
+                        0x08000f41   0x58  Code  Gb  stm32f4xx_hal_rtc_ex.o [1]
+HAL_RTCEx_WakeUpTimerEventCallback
+                        0x0800103b    0x2  Code  Wk  stm32f4xx_hal_rtc_ex.o [1]
+HAL_RTCEx_WakeUpTimerIRQHandler
+                        0x08000ff5   0x26  Code  Gb  stm32f4xx_hal_rtc_ex.o [1]
+HAL_RTC_AlarmAEventCallback
+                        0x08000eb5    0x2  Code  Wk  stm32f4xx_hal_rtc.o [1]
+HAL_RTC_AlarmIRQHandler
+                        0x08000e3d   0x42  Code  Gb  stm32f4xx_hal_rtc.o [1]
+HAL_RTC_Init            0x08000aa1   0x7a  Code  Gb  stm32f4xx_hal_rtc.o [1]
+HAL_RTC_MspInit         0x08000845   0x30  Code  Gb  stm32f4xx_hal_msp.o [1]
+HAL_RTC_SetAlarm_IT     0x08000cb9   0xd8  Code  Gb  stm32f4xx_hal_rtc.o [1]
+HAL_RTC_SetDate         0x08000bdf   0x80  Code  Gb  stm32f4xx_hal_rtc.o [1]
+HAL_RTC_SetTime         0x08000b31   0xa0  Code  Gb  stm32f4xx_hal_rtc.o [1]
+HAL_RTC_WaitForSynchro  0x08000eb7   0x30  Code  Gb  stm32f4xx_hal_rtc.o [1]
+HAL_SYSTICK_Callback    0x080007c9    0x2  Code  Wk  stm32f4xx_hal_cortex.o [1]
+HAL_SYSTICK_Config      0x0800076f   0x28  Code  Gb  stm32f4xx_hal_cortex.o [1]
+HAL_SYSTICK_IRQHandler  0x080007c1    0x8  Code  Gb  stm32f4xx_hal_cortex.o [1]
+HAL_UART_Init           0x08001ad9   0x20  Code  Gb  stm32f4xx_hal_uart.o [1]
+HAL_UART_MspInit        0x08000875   0x32  Code  Gb  stm32f4xx_hal_msp.o [1]
+I2C1_MasterRequestRead  0x08001409   0x82  Code  Lc  M24M01.o [1]
+I2C_MasterRequestWrite  0x080016af   0x54  Code  Lc  stm32f4xx_hal_i2c.o [1]
+I2C_WaitOnFlagUntilTimeout
+                        0x080012f7   0x7a  Code  Lc  M24M01.o [1]
+I2C_WaitOnFlagUntilTimeout
+                        0x08001749   0x7a  Code  Lc  stm32f4xx_hal_i2c.o [1]
+I2C_WaitOnMasterAddressFlagUntilTimeout
+                        0x08001397   0x72  Code  Lc  M24M01.o [1]
+I2C_WaitOnMasterAddressFlagUntilTimeout
+                        0x080017db   0x66  Code  Lc  stm32f4xx_hal_i2c.o [1]
+MX_RTC_Init             0x080019f9   0xae  Code  Lc  main.o [1]
+NVIC_GetPriorityGrouping
+                        0x080006d9    0xa  Code  Lc  stm32f4xx_hal_cortex.o [1]
+NVIC_SetPriority        0x080006e3   0x1a  Code  Lc  stm32f4xx_hal_cortex.o [1]
+RTC_Alarm_IRQHandler    0x08001db9   0x12  Code  Gb  stm32f4xx_it.o [1]
+RTC_Bcd2ToByte          0x08000f31   0x10  Code  Gb  stm32f4xx_hal_rtc.o [1]
+RTC_ByteToBcd2          0x08000f1b   0x16  Code  Gb  stm32f4xx_hal_rtc.o [1]
+RTC_EnterInitMode       0x08000ee7   0x34  Code  Gb  stm32f4xx_hal_rtc.o [1]
+RTC_WKUP_IRQHandler     0x08001d99   0x12  Code  Gb  stm32f4xx_it.o [1]
+Region$$Table$$Base     0x08001e1c          --   Gb  - Linker created -
+Region$$Table$$Limit    0x08001e40          --   Gb  - Linker created -
+SysTick_Handler         0x08001dab    0xe  Code  Gb  stm32f4xx_it.o [1]
+SystemClock_Config      0x0800197f   0x7a  Code  Gb  main.o [1]
+SystemCoreClock         0x20000010    0x4  Data  Gb  system_stm32f4xx.o [1]
+SystemInit              0x08001d49   0x3a  Code  Gb  system_stm32f4xx.o [1]
+UART_SetConfig          0x08001b3f   0xe0  Code  Lc  stm32f4xx_hal_uart.o [1]
+__cmain                 0x08001e41         Code  Gb  cmain.o [5]
+__exit                  0x08001e71   0x14  Code  Gb  exit.o [6]
+__iar_copy_init3        0x080007cb   0x2e  Code  Gb  copy_init3.o [5]
+__iar_data_init3        0x08001dd1   0x28  Code  Gb  data_init.o [5]
+__iar_init_vfp          0x08001df9         Code  Gb  fpinit_M.o [4]
+__iar_program_start     0x08001e95         Code  Gb  cstartup_M.o [5]
+__iar_zero_init3        0x0800103f   0x22  Code  Gb  zero_init3.o [5]
+__low_level_init        0x08001e5b    0x4  Code  Gb  low_level_init.o [3]
+__vector_table          0x08000000         Data  Gb  startup_stm32f411xe.o [1]
+_call_main              0x08001e4d         Code  Gb  cmain.o [5]
+_exit                   0x08001e65         Code  Gb  cexit.o [5]
+_main                   0x08001e57         Code  Gb  cmain.o [5]
+exit                    0x08001e5f    0x4  Code  Gb  exit.o [3]
+hi2c1                   0x20000028   0x38  Data  Gb  main.o [1]
+hrtc                    0x200000b8   0x20  Data  Gb  main.o [1]
+huart1                  0x20000060   0x3c  Data  Gb  main.o [1]
+i                       0x2000009c    0x4  Data  Gb  main.o [1]
+main                    0x0800186d  0x112  Code  Gb  main.o [1]
+read_data               0x200000a4   0x14  Data  Gb  main.o [1]
+status                  0x200000a0    0x4  Data  Gb  main.o [1]
+uwTick                  0x200000d8    0x4  Data  Lc  stm32f4xx_hal.o [1]
+write_data              0x20000014   0x14  Data  Gb  main.o [1]
+
+
+[1] = E:\_WilliamTan\FW Dev\_Modules\I2C_Nucleo\STM32F411RE - I2C\Projects\EWARM\STM32F411RE - I2C Configuration\Obj
+[2] = command line
+[3] = dl7M_tln.a
+[4] = m7M_tlv.a
+[5] = rt7M_tl.a
+[6] = shb_l.a
+
+   8 054 bytes of readonly  code memory
+      58 bytes of readonly  data memory
+  16 604 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
