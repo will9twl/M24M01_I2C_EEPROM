@@ -101,6 +101,9 @@ int main(void)
   EEPROM_DisableWriteControl(); //disable write protection
   status = EEPROM_MultiByte_Write(&hi2c1, (uint32_t)0x10000, &write_data[0], 20); //write at memory address 10000h to 10013h
   EEPROM_EnableWriteControl(); //enable write protection
+  
+  HAL_Delay(100); //EEPROM page write within 5ms
+  
   //-------------------------------------------------------
   // test read from EEPROM at selective address
   //-------------------------------------------------------
